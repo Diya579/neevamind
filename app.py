@@ -30,7 +30,7 @@ CORS(app, supports_credentials=True, origins=["http://localhost:3000"])
 
 
 # Cohere API setup
-COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'JxJg6AMSSZ0WVUjdTDgyPeT6eSIIZso5p4Is1XMb')
+COHERE_API_KEY = os.getenv('COHERE_API_KEY', 'useyourownapikey')
 co = cohere.Client(COHERE_API_KEY)
 
 # Database Models
