@@ -13,8 +13,6 @@ This solution is built with a focus on accessibility, simplicity, and privacy. I
 * AI-powered cognitive analysis of journal entries
 * Secure sign-up and login system
 * Visual reports that track mental health trends
-* Voice-only journaling mode for non-literate users
-* Daily mental wellness suggestions
 * End-to-end encryption and private data handling
 * Responsive and accessible design
 
@@ -22,14 +20,14 @@ This solution is built with a focus on accessibility, simplicity, and privacy. I
 
 * Frontend: HTML5, CSS3, JavaScript (Vanilla)
 * Backend: Python (Flask)
-* AI Analysis: NLP models trained to detect early cognitive decline
+* AI Analysis: Cohere API
 * Authentication: Basic email-password login
 * Hosting: Local (XAMPP compatible)
 
 ## Folder Structure
 
 ```
-neevamind-v2/
+neevamind
 │
 ├── frontend/
 │   ├── index.html            Main landing page and templates
@@ -48,7 +46,7 @@ neevamind-v2/
 ## How It Works
 
 1. Users sign up with a secure account.
-2. They write daily diary entries or speak their thoughts aloud using the voice journaling option.
+2. They write daily diary entries.
 3. The app's AI engine analyzes entries for patterns in language, memory, attention, and mood.
 4. Personalized feedback and long-term progress reports are displayed on the dashboard.
 5. Data remains fully private and secure.
