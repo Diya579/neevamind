@@ -60,10 +60,10 @@ cp /home/z/my-project/.env /home/z/my-project/env-config.txt
 SECRET_KEY=your-very-secure-secret-key-change-this-in-production
 
 # Database Configuration (MySQL via XAMPP)
-DATABASE_URL=mysql+pymysql://root:diya@localhost/neevamind
+DATABASE_URL=mysql+pymysql://root:@localhost/neevamind
 
 # AI API Configuration
-COHERE_API_KEY=JxJg6AMSSZ0WVUjdTDgyPeT6eSIIZso5p4Is1XMb
+COHERE_API_KEY=useyourownkey
 
 # Application Environment
 FLASK_ENV=development
