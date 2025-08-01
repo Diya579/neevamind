@@ -82,7 +82,7 @@ PERMANENT_SESSION_LIFETIME=86400  # 24 hours in seconds
 # DB_PORT=3306
 # DB_NAME=neevamind
 # DB_USER=root
-# DB_PASSWORD=diya
+# DB_PASSWORD=
 
 # CORS Settings
 CORS_ORIGINS=http://localhost:8000,http://127.0.0.1:8000
